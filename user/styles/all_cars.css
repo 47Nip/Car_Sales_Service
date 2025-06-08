@@ -1,0 +1,182 @@
+/* Resetting default margin and padding for all elements */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Styling body */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Container for car images */
+    .car-images {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      
+    }
+
+    .car-images div {
+      text-align: center;
+    }
+
+    .car-images img {
+      width: 450px;
+      height: auto;
+      
+    
+    
+      
+    }
+
+    /* Styling car name */
+    .car-name {
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+
+    /* Container for car details */
+    .car-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .car-details-block {
+      width: 48%;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .car-details-block h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .car-details-block p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Warranty and safety section */
+    .warranty-safety {
+      width: 800px;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-left: 25%;
+    }
+
+    .warranty-safety h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+      text-align: center;
+      margin-left: 5%;
+    }
+
+    .warranty-safety__item {
+      /* display: flex; */
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 10px;
+    }
+
+    .warranty-safety__icon {
+      font-size: 24px;
+      margin-right: 5px;
+      color: #333;
+      
+    }
+
+    .warranty-safety__text {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* EMI option section */
+    .emi-option {
+      width: 58%;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-left: 25%;
+    }
+
+    .emi-option h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+      text-align: center;
+    }
+
+    .emi-option__table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    .emi-option__table th,
+    .emi-option__table td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .emi-option__table th {
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    /* Get caller option section */
+    .get-caller-option {
+      width: 64%;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+      margin-left: 22%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .get-caller-option h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+      text-align: center;
+    }
+
+    .get-caller-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .get-caller-form input[type="text"],
+    .get-caller-form input[type="tel"],
+    .get-caller-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .get-caller-form input[type="submit"] {
+      background-color: #008080;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .get-caller-form input[type="submit"]:hover {
+      background-color: #005353;
+    }
